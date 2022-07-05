@@ -13,3 +13,4 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
+mistune>=2.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
