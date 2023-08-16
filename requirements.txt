@@ -13,3 +13,4 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
