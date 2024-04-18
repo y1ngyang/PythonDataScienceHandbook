@@ -1,4 +1,4 @@
-numpy==1.15.4
+numpy==1.22.2
 pandas==0.23.3
 scipy==1.1.0
 scikit-learn==0.19.2
@@ -13,3 +13,7 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
+ipython>=8.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-server>=2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
