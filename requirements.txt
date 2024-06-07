@@ -1,7 +1,7 @@
 numpy==1.15.4
 pandas==0.23.3
 scipy==1.1.0
-scikit-learn==0.19.2
+scikit-learn==1.5.0
 scikit-image==0.14.1
 pillow==5.2.0
 matplotlib==3.0.2
@@ -13,3 +13,5 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
+jupyter-server>=2.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
