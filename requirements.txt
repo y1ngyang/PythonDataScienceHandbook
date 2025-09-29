@@ -13,3 +13,4 @@ memory_profiler
 numexpr
 pandas-datareader
 netcdf4
+jupyterlab>=4.4.8 # not directly required, pinned by Snyk to avoid a vulnerability
